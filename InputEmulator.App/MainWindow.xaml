@@ -1,0 +1,16 @@
+﻿<Window
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    x:Class="InputEmulator.App.MainWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    Title="MainWindow"
+    Width="640"
+    Height="480">
+    <Grid>
+        <StackPanel>
+            <Button Content="Button 1" Click="ButtonClick"/>
+            <Button Content="Button 2" Click="ButtonClick"/>
+            <Button Content="Button 3" Click="ButtonClick"/>
+            <TextBlock x:Name="TextBlock"/>
+        </StackPanel>
+    </Grid>
+</Window>
