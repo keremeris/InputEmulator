@@ -14,6 +14,9 @@ The challenge is to find an alternative approach to achieve the same task withou
 
 Solving this issue will enable the tester to be able to use his/her computer while the test is running; in addition, it will also enable the parallelization of these type of tests, as they currently have to be sequentially.
 
+## Constraint
+- The execution and testing must work on Windows 10 and above.
+
 ## Visual Studio (VS) solution structure
 
 The Visual Studio (VS) solution contains two C# projects:
